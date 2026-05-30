@@ -1,0 +1,91 @@
+.west1{
+	font-size:50px;
+	margin-left:37%;
+	margin-top:6%;
+	font-family:Arial;
+}
+body{
+background: #23a7db;
+background: linear-gradient(180deg, rgba(35, 167, 219, 1) 21%, rgba(28, 152, 184, 1) 40%, rgba(21, 119, 189, 1) 54%, rgba(33, 165, 217, 1) 78%);
+}
+.west2{
+	height:200px;
+	width:300px;
+	background-color:#86C9F3;
+	margin-top:-16px;
+	font-family:Arial;
+	font-size:23px;
+	border:4px solid #134564;
+
+}
+.header{
+width:1920px;
+height:200px;
+background:#379BDA;	
+border:4px solid #256A95;
+margin-left:-10px;
+margin-right:-10px;
+margin-top:-10px;
+}
+li{
+list-style-type:none;	
+display:inline-block;
+}
+ul{
+margin-left:-40px;	
+}
+.west3{
+	margin-left:0px;
+	height:200px;
+	width:316.5px;
+	background-color:#86C9F3;
+	margin-top:-16px;
+	font-family:Arial;
+	font-size:23px;
+	border:4px solid #134564;
+}
+.menu {
+  width: 180px;
+  border: 1px solid #aaa;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* Всі пункти */
+.menu li {
+  padding: 10px;
+  background: #fff;
+}
+
+/* Посилання */
+.menu li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Ховер */
+.menu li:hover {
+  background: #eee;
+}
+
+/* ❌ Ховаємо всі, крім першого */
+.menu li:not(:first-child) {
+  display: none;
+}
+
+/* ✅ Показуємо при наведенні */
+.menu:hover li {
+  display: block;
+}
+
+/* Курсор */
+.menu .current {
+  cursor: pointer;
+}
+.west5{
+font-size:25px;
+font-family:arial;
+}

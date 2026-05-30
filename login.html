@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Вхід</title>
+<link rel="stylesheet" href="mystyle.css">
+
+</head>
+
+<body>
+
+<div id="login-box"class="login-box">
+
+<h2 class="w1">Enter site</h2>
+
+<input type="email" id="email" placeholder="Email">
+
+<br><input type="password" id="password" placeholder="Password">
+
+<br><button id="login">Sing in</button>
+
+<div class="error" id="error"></div>
+
+</div>
+
+<script>
+
+  // отримує змінні для роботи 
+  let enter_in_form=document.getElementById("login")
+  const error = document.getElementById("error")
+
+ 
+  
+/// прослуховувач подій
+  
+ enter_in_form.addEventListener("click", function (event) {
+     event.preventDefault()
+    const email = document.getElementById("email").value
+    const password = document.getElementById("password").value
+
+    console.log(email)
+    console.log(password)
+
+    if( email==="arsen@gmail.com"&& password==="1234" ){
+        window.location.href = "index.html" ///це властивість у JavaScript, яка містить адресу (URL) поточної сторінки і дозволяє перейти на іншу сторінку.
+    }else{
+        error.innerText = "Невірний email або пароль"
+    }
+  
+});
+
+    
+
+
+
+</script>
+
+</body>
+</html>

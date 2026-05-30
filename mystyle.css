@@ -1,0 +1,34 @@
+.login-box{
+	margin-left:36%;
+	margin-top:200px;
+	background-color:#2395DC;
+	width:500px;
+	height:250px;
+	border:4px solid #165E8A;
+	border-radius:15%;
+}
+body{
+background: #23a7db;
+background: linear-gradient(180deg, rgba(35, 167, 219, 1) 21%, rgba(28, 152, 184, 1) 40%, rgba(21, 119, 189, 1) 54%, rgba(33, 165, 217, 1) 78%);
+
+}
+.w1{
+	margin-left:38%;
+	padding-bottom:-20px;
+	padding-top:35px;
+	font-family: 'Nunito',arial;
+
+}
+#email{
+	margin-left:160px;
+	margin-top:10px;
+	
+}
+#login{
+margin-left:225px;
+margin-top:5px;
+}
+#password{
+	margin-left:160px;
+	margin-top:5px;
+}

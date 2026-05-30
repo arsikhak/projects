@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" href="js.css"></link>
+<style>
+.a{
+color:blue;
+}
+</style>
+</head>
+<body>
+<p class="a">Hello world!</p>
+<div id="numbers"></div>
+<script>
+let mass = []
+let st = []
+function RandomMass(){
+return Math.round(Math.random()*5)
+}
+
+for(i=0;i<10;i++){
+mass[i]=RandomMass();
+mass.push(i);
+ 
+}
+function Stepin(){
+for(let j=0; j<mass.lenght;j++){
+ st[j]=Math.pow(mass[j],2);
+ st.push(j);
+ }
+ return st
+}
+numbers=document.getElementById('numbers');
+numbers.innerHTML=(mass)
+
+numbers.innerHTML=(st)
+console.log(mass);
+console.log(Stepin());
+
+ </script>
+</body>       
+</html>
